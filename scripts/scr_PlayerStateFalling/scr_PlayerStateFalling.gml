@@ -1,11 +1,9 @@
 //Transition to onGround state if floor is directly under us
-if (place_meeting(x, y + 1, obj_BlockParent))
-{
+if (on_floor(x, y + 1)) {
 	vertState = verticalstate.onGround;
 }
 
 //Transition to jetpacking state if up key is being held
-if (upKeyDown)
-{
+if (upKeyDown) {
 	vertState = verticalstate.jetpacking;
 }

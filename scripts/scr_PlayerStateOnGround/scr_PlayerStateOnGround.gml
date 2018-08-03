@@ -1,11 +1,9 @@
 
-if (!place_meeting(x, y + 1, obj_BlockParent))
-{
+if (!place_meeting(x, y + 1, obj_BlockParent)) {
 	vertState = verticalstate.falling;
 }
 
-if (upKeyPressed)
-{
+if (upKeyPressed) {
 	ySpeed = -jumpPower;
 	vertState = verticalstate.jumping;
 }
