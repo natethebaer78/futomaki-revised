@@ -13,6 +13,7 @@ switch (vertState)
 			image_speed = (xSpeed / maxRunSpeed);
 		}
 		break;
+		
 	}
 	case verticalstate.falling:
 	{

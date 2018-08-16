@@ -16,3 +16,6 @@ enum verticalstate
 	falling,
 }
 
+//create camera
+instance_create_layer(0, 0, global.mainLayer, obj_camera);
+
